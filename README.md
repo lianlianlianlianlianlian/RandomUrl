@@ -41,16 +41,6 @@ location /day {
     rewrite ^/day$ /day.php last;
 }
 
-location /url_day {
-    rewrite ^/url_day/$ /url_day.php last;
-    rewrite ^/url_day$ /url_day.php last;
-}
-
-location /url_random {
-    rewrite ^/url_random/$ /url_random.php last;
-    rewrite ^/url_random$ /url_random.php last;
-}
-
 location /gif {
     rewrite ^/gif/$ /gif.php last;
     rewrite ^/gif$ /gif.php last;
